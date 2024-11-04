@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-0930cfcc","path":"/blogs/linux/swupdate.html","title":"swupdate 升级方案","lang":"en-US","frontmatter":{"title":"swupdate 升级方案","tags":["linux","swupdate","bsp"],"date":"2022/03/29","categories":["linux"]},"headers":[],"git":{},"filePathRelative":"blogs/linux/swupdate.md"}');export{t as data};

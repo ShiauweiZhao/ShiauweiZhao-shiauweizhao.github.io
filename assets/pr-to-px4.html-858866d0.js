@@ -1,0 +1,6 @@
+import{_ as e,o as t,c as a,a as i}from"./app-938c0f64.js";const r={},h=i(`<h1 id="前置知识" tabindex="-1"><a class="header-anchor" href="#前置知识" aria-hidden="true">#</a> 前置知识</h1><p>由于PX4-Autopilot项目托管在Github，所以我们需要一些前置知识。</p><h2 id="git" tabindex="-1"><a class="header-anchor" href="#git" aria-hidden="true">#</a> git</h2><p>git的具体使用可以看廖雪峰等相关文档，了解ssh 免密登录也是有必要的，这个网上相关文档很多。</p><p>对于我们想提一个pr，掌握以下几个命令就可以了</p><pre><code>git clone  # 从远程仓库克隆代码
+git checkout -b  # 创建分支
+git add  # 将修改添加到暂存区 
+git commit # 将暂存区的代码 变成一个新提交的版本 
+git push # 向远程仓库推送代码 
+</code></pre><h2 id="github" tabindex="-1"><a class="header-anchor" href="#github" aria-hidden="true">#</a> github</h2><p>github这里 你需要注册一个github账号，然后去fork PX4-Autopilot的项目，fork项目后，在自己名下就可以看到一个PX4-Autopilot的项目了，使用https或者ssh的方式，用git将这个项目clone到本地。</p><h1 id="代码修改" tabindex="-1"><a class="header-anchor" href="#代码修改" aria-hidden="true">#</a> 代码修改</h1><p>使用<code>git checkout -b</code> 创建分支,分支名建议叫做pr-xxxx添加自己的修改内容,使用<code>git status</code>查看修改内容，随后使用 <code> git add git commit git push</code>指令将分支推送到远端仓库。</p><h1 id="提交pr" tabindex="-1"><a class="header-anchor" href="#提交pr" aria-hidden="true">#</a> 提交pr</h1><p>打开自己fork的PX4仓库 点击 compare &amp; pull request 创建自己的pr，内容和标题应该尽可能表明具体功能，必要时可以上传视频，日志等。</p>`,12),o=[h];function c(d,p){return t(),a("div",null,o)}const s=e(r,[["render",c],["__file","pr-to-px4.html.vue"]]);export{s as default};

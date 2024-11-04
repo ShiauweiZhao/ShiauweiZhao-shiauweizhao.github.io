@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-8518ab54","path":"/blogs/linux/so_slimming.html","title":"动态库瘦身","lang":"en-US","frontmatter":{"title":"动态库瘦身","tags":["linux"],"date":"2022/08/29","categories":["linux"]},"headers":[{"level":2,"title":"strip测试","slug":"strip测试","link":"#strip测试","children":[]}],"git":{},"filePathRelative":"blogs/linux/so_slimming.md"}');export{t as data};

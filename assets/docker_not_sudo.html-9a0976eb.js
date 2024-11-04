@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-9e675d9a","path":"/blogs/linux/docker_not_sudo.html","title":"docker 不需要sudo权限执行","lang":"en-US","frontmatter":{"title":"docker 不需要sudo权限执行","tags":["git"],"date":"2024/08/21","categories":["linux"]},"headers":[],"git":{},"filePathRelative":"blogs/linux/docker_not_sudo.md"}');export{t as data};
